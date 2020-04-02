@@ -4,17 +4,27 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  color: white;
+  background-color: black;
+  background-image: url("img/aaalol.png");
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+.container .page-header {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+  text-align: right;
+  padding-bottom: 40px;
 }
 
 .container {
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .page-header {
@@ -33,7 +43,7 @@ body {
   color: #288be6;
   text-decoration: none;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
 }
 
 .header-email {
@@ -61,6 +71,11 @@ body {
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
+}
+
+.hero-image {
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .hero-image p {
